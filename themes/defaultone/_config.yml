@@ -436,7 +436,7 @@ plugins:
     audios:
       - name: 后来我们的爱 # audio name
         artist: 萝卜吖 # audio artist
-        url: https://dj.starssr.com/hlwmda.lrc # audio url
+        url: https://dj.starssr.com/hlwmda.mp3 # audio url
         cover: https://dj.starssr.com/24.jpg # audio cover url
         lrc: https://dj.starssr.com/hlwmda.lrc # audio cover lrc
 #      - name: # audio name
