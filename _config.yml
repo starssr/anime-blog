@@ -8,8 +8,8 @@ subtitle: ''
 description: '陌让流年盼繁华，颜容依旧私似繁花'
 keywords:云云星羽，starssr，star
 author: 云云星羽
-language: zh
-timezone: 'UTC+08:00)北凉，重庆，香港特别行政区，乌鲁木齐'
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
