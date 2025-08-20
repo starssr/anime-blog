@@ -434,11 +434,11 @@ plugins:
     enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: 后来我们的爱-萝卜# audio name
-        artist: 默认 # audio artist
-        url: https://pan.starssr.com/d/aliyun/mp3/%E4%BA%91%E4%BA%91%E6%98%9F%E7%BE%BD%20-%20%E8%90%9D%E5%8D%9C%E5%90%96.mp3 # audio url
-        cover: # audio cover url
-        lrc: # audio cover lrc
+      - name: 后来我们的爱 # audio name
+        artist: 萝卜吖 # audio artist
+        url: https://dj.starssr.com/hlwmda.lrc # audio url
+        cover: https://dj.starssr.com/24.jpg # audio cover url
+        lrc: https://dj.starssr.com/hlwmda.lrc # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
