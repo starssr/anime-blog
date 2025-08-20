@@ -1,25 +1,17 @@
 - links_category: This is the first categrory
   has_thumbnail: true
   list:
-      - name: Jack's Blog
-        link: https://example.com
-        description: I will refresh my article every day.
-        avatar: /images/avatar-0.jpg
-        thumbnail: /images/desc-image.jpg # has_thumbnail 为 true 时才需要
+      - name: 云云星羽
+        link: https://starssr.com
+        description: 陌让流年盼繁华，颜容依旧私似繁花
+        avatar: https://q1.qlogo.cn/g?b=qq&nk=521001121&s=640
+        thumbnail: https://q1.qlogo.cn/g?b=qq&nk=521001121&s=640 # has_thumbnail 为 true 时才需要
  
 - links_category: This is the second categrory
   has_thumbnail: false
   list:
-      - name: Partner Link 1
-        link: https://example.com
-        description: Example Site Imformation
-        avatar: /images/avatar-1.jpg
-      - name: Partner Link 2
-        link: https://example.com
-        description: Example Site Description
-        avatar: /images/avatar-2.png
-      - name: Partner Link 3
-        link: https://example.com
-        description: Example Site Description
-        avatar: /images/avatar-3.png
+      - name: 云星起始
+        link: https://hao.starssr.com
+        description: 这是一个起始页
+        avatar: https://q1.qlogo.cn/g?b=qq&nk=521001121&s=640
  
