@@ -390,7 +390,6 @@ comment:
 # Docs: https://redefine-docs.ohevan.com/footer
 footer:
   # Show website running time
-  footer.start:
   runtime: true # show website running time or not
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
@@ -401,7 +400,6 @@ footer:
   # Footer message
   customize:
   # ICP record number. See https://beian.miit.gov.cn/
-  footer.icp.enable:
   icp:
     enable: true # Whether to enable
     number: 陇ICP备2021002121号 # ICP record number
@@ -413,13 +411,30 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: false
+  enable: true
   # Inject custom head html code
   head: 
     -
     -
   # Inject custom footer html code
   footer:
+  
+    # Show website running time
+  runtime: true # show website running time or not
+  # Icon in footer, write fontawesome icon code here
+  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  # The start time of the website, format: YYYY/MM/DD HH:mm:ss
+  start: 2021/8/17 11:45:14
+  # Site statistics
+  statistics: true # show site statistics or not (total articles, total words)
+  # Footer message
+  customize:
+  # ICP record number. See https://beian.miit.gov.cn/
+  icp:
+    enable: true # Whether to enable
+    number: 陇ICP备2021002121号 # ICP record number
+    url: https://beian.miit.gov.cn/#/Integrated/index # ICP record url
+    
     -
     -
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
