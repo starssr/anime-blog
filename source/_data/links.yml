@@ -7,8 +7,6 @@
         avatar: https://q1.qlogo.cn/g?b=qq&nk=521001121&s=640
         thumbnail: https://up.starssr.com/img/1000007591.jpg # has_thumbnail 为 true 时才需要
         
-  has_thumbnail: false
-  list:
       - name: 云云星羽
       - name: 云星起始
         link: https://hao.starssr.com
@@ -16,4 +14,5 @@
         avatar: https://up.starssr.com/img/daohang.png
  
 - links_category: 其他
- 
+   has_thumbnail: false
+  list:
