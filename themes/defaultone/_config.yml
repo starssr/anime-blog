@@ -2,7 +2,7 @@ info:
   # Site title
   title: 星夜幻梦
   # Site subtitle
-  subtitle: 降临
+  subtitle: 
   # Author name
   author: 云云星羽
   # Site URL
@@ -345,7 +345,7 @@ effects:
 # Docs: https://redefine-docs.ohevan.com/posts/comment
 comment:
   # Whether to enable comment
-  enable: false
+  enable: true
   # Comment system
   system: waline # waline, gitalk, twikoo, giscus
   # System configuration
@@ -390,6 +390,7 @@ comment:
 # Docs: https://redefine-docs.ohevan.com/footer
 footer:
   # Show website running time
+  footer.start:
   runtime: true # show website running time or not
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
@@ -400,6 +401,7 @@ footer:
   # Footer message
   customize:
   # ICP record number. See https://beian.miit.gov.cn/
+  footer.icp.enable:
   icp:
     enable: true # Whether to enable
     number: 陇ICP备2021002121号 # ICP record number
