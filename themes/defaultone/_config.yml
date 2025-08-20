@@ -119,8 +119,8 @@ home_banner:
   # Home banner title
   title: 星羽幻梦
   # Home banner subtitle
-  subtitle: 降临
-    text: ['欢迎来到我的小窝'] # subtitle text, array
+  subtitle: 
+    text: ['欢迎'] # subtitle text, array
     hitokoto:  # Hitokoto Configuration
       enable: false # Whether to enable hitokoto
       show_author: true # Whether to show author
@@ -167,7 +167,7 @@ home_banner:
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
-      weixin: https://s3.starssr.com/wdwx.jpg?fmt=webp # your Wechat QRcode image URL
+      weixin:  # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -222,7 +222,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: true
+    enable: false
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -390,13 +390,13 @@ comment:
 # Docs: https://redefine-docs.ohevan.com/footer
 footer:
   # Show website running time
-  runtime: false # show website running time or not
+  runtime: true # show website running time or not
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
   start: 2021/8/17 11:45:14
   # Site statistics
-  statistics: false # show site statistics or not (total articles, total words)
+  statistics: true # show site statistics or not (total articles, total words)
   # Footer message
   customize:
   # ICP record number. See https://beian.miit.gov.cn/
@@ -428,15 +428,15 @@ inject:
 plugins:
   # RSS feed. Requires hexo-generator-feed (npm i hexo-generator-feed). See https://github.com/hexojs/hexo-generator-feed
   feed:
-    enable: true # Whether to enable
+    enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: 后来我们的爱 # audio name
+      - name: # audio name
         artist: # audio artist
-        url: https://pan.starssr.com/d/aliyun/mp3/%E4%BA%91%E4%BA%91%E6%98%9F%E7%BE%BD%20-%20%E8%90%9D%E5%8D%9C%E5%90%96.mp3 # audio url
+        url: # audio url
         cover: # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
@@ -447,7 +447,7 @@ plugins:
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
-    enable: true # enable mermaid or not
+    enable: false # enable mermaid or not
     version: "11.4.1" # default v11.4.1
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
