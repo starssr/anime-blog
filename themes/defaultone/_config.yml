@@ -194,13 +194,7 @@ navbar:
     归档: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
-    Github: 
-      path: https://github.com/starssr
-      icon: fa-brands fa-github
-      # submenus:
-      #   Link1: /link1
-      #   Link2: /link2
-      #   Link3: /link3
+
     图库: #
       icon: fa-solid fa-image #icon
       path: /masonry/ 
@@ -210,6 +204,15 @@ navbar:
     友链: 
       path: /links/
       icon: fa-solid fa-link
+
+     Github: 
+      path: https://github.com/starssr
+      icon: fa-brands fa-github
+      # submenus:
+      #   Link1: /link1
+      #   Link2: /link2
+      #   Link3: /link3
+      
     关于: 
       path: /about
       icon: fa-solid fa-circle-info
@@ -222,7 +225,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: false
+    enable: true
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
