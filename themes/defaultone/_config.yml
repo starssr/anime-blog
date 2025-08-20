@@ -2,7 +2,7 @@ info:
   # Site title
   title: 星夜幻梦
   # Site subtitle
-  subtitle:
+  subtitle: 
   # Author name
   author: 云云星羽
   # Site URL
@@ -16,7 +16,7 @@ defaults:
   # Favicon
   favicon: https://up.starssr.com/img/ytx.png
   # Site logo
-  logo: https://s3.starssr.com/favicon.png?fmt=webp
+  logo: https://up.starssr.com/img/ytx.png
   # Site avatar
   avatar: https://up.starssr.com/img/ytx.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -119,8 +119,8 @@ home_banner:
   # Home banner title
   title: 星羽幻梦
   # Home banner subtitle
-  subtitle:
-    text: ['Welcome to my blog'] # subtitle text, array
+  subtitle: 
+    text: ['欢迎'] # subtitle text, array
     hitokoto:  # Hitokoto Configuration
       enable: false # Whether to enable hitokoto
       show_author: true # Whether to show author
@@ -159,11 +159,11 @@ home_banner:
     style: 默认 # default, reverse, center
     # Social links
     links:
-      github:  https://github.com/starssr # your GitHub URL
+      github: https://github.com/starssr # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       # twitter:  https://x.com/TencentCloudEO # your twitter URL
-      email:  # your email
+      email: rhjo@qq.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -195,7 +195,7 @@ navbar:
       path: /archives 
       icon: fa-regular fa-archive # can be empty
     Github: 
-      path: https://github.com/EvanNotFound
+      path: https://github.com/starssr
       icon: fa-brands fa-github
       # submenus:
       #   Link1: /link1
@@ -325,7 +325,7 @@ articles:
     # Whether to enable article recommendation
     enable: false
     # Article recommendation title
-    title: Recommended Reading
+    title: 推荐
     # Max number of articles to display
     limit: 3
     # Max number of articles to display mobile
@@ -353,7 +353,7 @@ comment:
     # Waline comment system. See https://waline.js.org/
     waline:
       serverUrl: https://ifpx3kuv.api.lncldglobal.com # Waline server URL. e.g. https://example.example.com
-      lang: en-US # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
+      lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
       turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
@@ -394,7 +394,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2021/8/17 11:45:14
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
