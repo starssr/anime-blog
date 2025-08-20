@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 星夜幻梦
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+description: '陌让流年盼繁华，颜容依旧私似繁花'
+keywords:云云星羽，starssr，star
+author: 云云星羽
+language: zh
+timezone: 'UTC+08:00)北凉，重庆，香港特别行政区，乌鲁木齐'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://starssr.com
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -22,7 +22,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: 公共
 # tag_dir: tags
 # archive_dir: archives
 # category_dir: 
