@@ -117,10 +117,10 @@ home_banner:
     light: /images/main_bg_ligth.jpg # light mode
     dark: /images/main_bg.jpg # dark mode
   # Home banner title
-  title: 星羽幻梦
+  title: 星夜幻梦
   # Home banner subtitle
   subtitle: 
-    text: ['欢迎'] # subtitle text, array
+    text: ['欢迎来到我的小窝'] # subtitle text, array
     hitokoto:  # Hitokoto Configuration
       enable: false # Whether to enable hitokoto
       show_author: true # Whether to show author
@@ -167,7 +167,7 @@ home_banner:
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
-      weixin: https://s3.starssr.com/wdwx.jpg?fmt=webp # your Wechat QRcode image URL
+      weixin:  # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -194,7 +194,7 @@ navbar:
     归档: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
- Github: 
+    Github: 
       path: https://github.com/starssr
       icon: fa-brands fa-github
       # submenus:
@@ -323,7 +323,7 @@ articles:
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
-    enable: false
+    enable: true
     # Article recommendation title
     title: 推荐
     # Max number of articles to display
