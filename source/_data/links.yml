@@ -6,12 +6,14 @@
         description: 陌让流年盼繁华，颜容依旧私似繁花
         avatar: https://q1.qlogo.cn/g?b=qq&nk=521001121&s=640
         thumbnail: https://up.starssr.com/img/1000007591.jpg # has_thumbnail 为 true 时才需要
- 
-- links_category: 朋友们
+        
   has_thumbnail: false
   list:
+      - name: 云云星羽
       - name: 云星起始
         link: https://hao.starssr.com
         description: 这是一个起始页
         avatar: https://up.starssr.com/img/daohang.png
+ 
+- links_category: 其他
  
