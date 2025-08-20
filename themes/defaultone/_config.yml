@@ -119,9 +119,9 @@ home_banner:
   # Home banner title
   title: 星羽幻梦
   # Home banner subtitle
-  subtitle: 
+  subtitle: 降临
     text: ['欢迎来到我的小窝'] # subtitle text, array
-    hitokoto: # Hitokoto Configuration
+    hitokoto:  # Hitokoto Configuration
       enable: true # Whether to enable hitokoto
       show_author: true # Whether to show author
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
@@ -222,7 +222,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: true
+    enable: false
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -255,11 +255,11 @@ home:
   excerpt_length: 200 # Max length of article excerpt
   # Article categories visibility
   categories:
-    enable: true  # Whether to enable
+    enable: false  # Whether to enable
     limit: 3 # Max number of categories to display
   # Article tags visibility
   tags:
-    enable: true  # Whether to enable
+    enable: false  # Whether to enable
     limit: 3  # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -273,7 +273,7 @@ articles:
     line_height: 1.5 # Line height
     image_border_radius: 14px # image border radius
     image_alignment: center # image alignment. left, center
-    image_caption: true # Whether to display image caption
+    image_caption: false # Whether to display image caption
     link_icon: true # Whether to display link icon
     delete_mask: false # Add mask effect to <del> tags, hiding content by default and revealing on hover
     title_alignment: left # Title alignment. left, center
@@ -291,8 +291,8 @@ articles:
     min2read: true # Whether to display reading time
   # Author label
   author_label: 
-    enable: true # Whether to enable
-    auto: true # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
+    enable: false # Whether to enable
+    auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
   # Code block settings
   code_block:
@@ -319,11 +319,11 @@ articles:
   # Whether to enable lazyload for images
   lazyload: true
   # Pangu.js (automatically add space between Chinese and English). See https://github.com/vinta/pangu.js
-  pangu_js: true
+  pangu_js: false
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
-    enable: true
+    enable: false
     # Article recommendation title
     title: 推荐
     # Max number of articles to display
@@ -357,7 +357,7 @@ comment:
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
       turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
-      reaction: true # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
+      reaction: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
       clientID: # GitHub Application Client ID
@@ -394,7 +394,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2021/8/17 11:45:14
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
