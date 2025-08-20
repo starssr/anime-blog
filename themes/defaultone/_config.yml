@@ -114,8 +114,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/main_bg_ligth.jpg # light mode
-    dark: /images/main_bg.jpg # dark mode
+    light: https://s3.starssr.com/25.png?fmt=webp # light mode
+    dark: https://s3.starssr.com/20200806064430_a2kfN.jpeg # dark mode
   # Home banner title
   title: 星夜幻梦
   # Home banner subtitle
@@ -163,7 +163,7 @@ home_banner:
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       # twitter:  https://x.com/TencentCloudEO # your twitter URL
-      email: rhjo@qq.com # your email
+      email:  # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
