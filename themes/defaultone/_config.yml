@@ -120,9 +120,9 @@ home_banner:
   title: 星羽幻梦
   # Home banner subtitle
   subtitle: 
-    text: ['欢迎'] # subtitle text, array
+    text: ['欢迎来到我的小窝'] # subtitle text, array
     hitokoto:  # Hitokoto Configuration
-      enable: false # Whether to enable hitokoto
+      enable: true # Whether to enable hitokoto
       show_author: true # Whether to show author
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
     typing_speed: 100 # Typing speed (ms)
@@ -167,7 +167,7 @@ home_banner:
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
-      weixin:  # your Wechat QRcode image URL
+      weixin: https://s3.starssr.com/wdwx.jpg?fmt=webp # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
