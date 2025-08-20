@@ -4,7 +4,7 @@
 
 # Site
 title: 星夜幻梦
-subtitle: ''
+subtitle: 
 description: '陌让流年盼繁华，颜容依旧私似繁花'
 keywords: 云云星羽，starssr，star
 author: 云云星羽
@@ -22,7 +22,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: 公共
 # tag_dir: tags
 # archive_dir: archives
 # category_dir: 
