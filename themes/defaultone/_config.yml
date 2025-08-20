@@ -428,15 +428,15 @@ inject:
 plugins:
   # RSS feed. Requires hexo-generator-feed (npm i hexo-generator-feed). See https://github.com/hexojs/hexo-generator-feed
   feed:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
+      - name: 后来我们的爱-萝卜# audio name
+        artist: 默认 # audio artist
+        url: https://pan.starssr.com/d/aliyun/mp3/%E4%BA%91%E4%BA%91%E6%98%9F%E7%BE%BD%20-%20%E8%90%9D%E5%8D%9C%E5%90%96.mp3 # audio url
         cover: # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
