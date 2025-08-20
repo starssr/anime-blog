@@ -1,14 +1,14 @@
 ---
-title: About
-date: 2025-04-09 16:23:59
+title: 关于我
+date: 2025-08-20 17:20:00
 ---
 
-### Basic info
+### 基本信息
 
-I'm a good man
+我是一个好人
 
 <hr >
 
-### examples
+### 示例
 
-This is examples
+这是一个列子
