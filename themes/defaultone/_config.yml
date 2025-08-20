@@ -1,12 +1,12 @@
 info:
   # Site title
-  title: Jack's Blog
+  title: 星夜幻梦
   # Site subtitle
-  subtitle: Your personal blog journey.
+  subtitle:
   # Author name
-  author: Jack
+  author: 云云星羽
   # Site URL
-  url: https://your-domain.com
+  url: https://starssr.com
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -14,11 +14,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/favicon.svg
+  favicon: https://up.starssr.com/img/ytx.png
   # Site logo
-  logo: 
+  logo: https://s3.starssr.com/favicon.png?fmt=webp
   # Site avatar
-  avatar: /images/avatar-0.jpg
+  avatar: https://up.starssr.com/img/ytx.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -83,7 +83,7 @@ global:
   open_graph:
     enable: true
     image: /images/og.webp  # default og:image
-    description: This is your blog.
+    description: 这是你的小窝
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
@@ -117,7 +117,7 @@ home_banner:
     light: /images/main_bg_ligth.jpg # light mode
     dark: /images/main_bg.jpg # dark mode
   # Home banner title
-  title: Jack's Blog
+  title: 星羽幻梦
   # Home banner subtitle
   subtitle:
     text: ['Welcome to my blog'] # subtitle text, array
@@ -156,10 +156,10 @@ home_banner:
     # Whether to enable
     enable: true
     # Social links style
-    style: default # default, reverse, center
+    style: 默认 # default, reverse, center
     # Social links
     links:
-      github:  https://github.com/EvanNotFound/hexo-theme-redefine # your GitHub URL
+      github:  https://github.com/starssr # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       # twitter:  https://x.com/TencentCloudEO # your twitter URL
@@ -188,10 +188,10 @@ navbar:
     pages: 1000px #other pages
   # Navbar links
   links:
-    Home: 
+    首页: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    Archives: 
+    归档: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
     Github: 
@@ -201,16 +201,16 @@ navbar:
       #   Link1: /link1
       #   Link2: /link2
       #   Link3: /link3
-    Album: #
+    图库: #
       icon: fa-solid fa-image #icon
       path: /masonry/ 
     # Categories: 
     #   icon: fa-solid fa-tags #icon
     #   path: /tags/ #Link
-    Links: 
+    友链: 
       path: /links/
       icon: fa-solid fa-link
-    About: 
+    关于: 
       path: /about
       icon: fa-solid fa-circle-info
       # submenus:
