@@ -1,94 +1,94 @@
 info:
-  # Site title
+  # 网站标题
   title: 星夜幻梦
-  # Site subtitle
-  subtitle: 降临
-  # Author name
+  # 网站副标题（留空则不显示）
+  subtitle: 
+  # 作者名称
   author: 云云星羽
-  # Site URL
+  # 网站URL
   url: https://starssr.com
-# BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+# 基本信息配置 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
-# IMAGE CONFIGURATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
-# Docs: https://redefine-docs.ohevan.com/basic/defaults
+# 图片配置 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# 文档: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
-  # Favicon
+  # 网站图标
   favicon: https://up.starssr.com/img/ytx.png
-  # Site logo
+  # 网站Logo
   logo: https://up.starssr.com/img/ytx.png
-  # Site avatar
+  # 网站头像
   avatar: https://up.starssr.com/img/ytx.png
-# IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+# 图片配置 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
-# COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
-# Docs: https://redefine-docs.ohevan.com/basic/colors
+# 颜色配置 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# 文档: https://redefine-docs.ohevan.com/basic/colors
 colors:
-  #Primary color
+  # 主色调
   primary: "#A31F34"
-  # Secondary color (TBD)
+  # 次要颜色（待定）
   secondary:
-  # Default theme mode initial value (will be overwritten by prefer-color-scheme)
-  default_mode: dark # light, dark
-# COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+  # 默认主题模式初始值（会被用户偏好覆盖）
+  default_mode: dark # light（浅色）, dark（深色）
+# 颜色配置 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
-# SITE CUSTOMIZATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
-# Docs: https://redefine-docs.ohevan.com/basic/global
+# 网站自定义配置 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# 文档: https://redefine-docs.ohevan.com/basic/global
 global:
-  # Custom global fonts
+  # 自定义全局字体
   fonts:
-    # Chinese fonts
+    # 中文字体
     chinese: 
-      enable: true # Whether to enable custom chinese fonts
-      family: "'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" # Font family
-      url: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" # Font URL to CSS file
-    # English fonts
+      enable: false # 是否启用自定义中文字体
+      family: "'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" # 字体族
+      url: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" # 字体CSS文件URL
+    # 英文字体
     english: 
-      enable: true # Whether to enable custom english fonts
-      family: "'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" # Font family
-      url: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" # Font URL to CSS file
-    # Custom title fonts (navbar, sidebar)
+      enable: false # 是否启用自定义英文字体
+      family: "'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" # 字体族
+      url: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" # 字体CSS文件URL
+    # 自定义标题字体（导航栏、侧边栏）
     title:
-      enable: true # Whether to enable custom title fonts
-      family: "'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" # Font family
-      url: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" # Font URL to CSS file
-  # Content max width
+      enable: false # 是否启用自定义标题字体
+      family: "'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" # 字体族
+      url: "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" # 字体CSS文件URL
+  # 内容最大宽度
   content_max_width: 1000px
-  # Sidebar width
+  # 侧边栏宽度
   sidebar_width: 210px
-  # Effects on mouse hover
+  # 鼠标悬停效果
   hover:
-    shadow: true # shadow effect
-    scale: false # scale effect
-  # Scroll progress
+    shadow: true # 阴影效果
+    scale: false # 缩放效果
+  # 滚动进度
   scroll_progress:
-    bar: false # progress bar
-    percentage: true # percentage
-  # Website counter
+    bar: false # 进度条
+    percentage: true # 百分比
+  # 网站计数器
   website_counter:
-    url: https://cn.vercount.one/js # counter API URL (no need to change)
-    enable: true # enable website counter or not
-    site_pv: true # site page view
-    site_uv: true # site unique visitor
-    post_pv: true # post page view
-  # Whether to enable single page experience (using swup). See https://swup.js.org/. similar to pjax
+    url: https://cn.vercount.one/js # 计数器API地址（无需更改）
+    enable: true # 是否启用网站计数器
+    site_pv: true # 网站页面浏览量
+    site_uv: true # 网站独立访客
+    post_pv: true # 文章页面浏览量
+  # 是否启用单页面体验（使用swup）类似pjax
   single_page: true
-  # Whether to enable Preloader.
+  # 是否启用预加载器
   preloader:
     enable: true
-    custom_message: # Custom message. If empty, the site title will be displayed
-  # Whether to enable open graph
+    custom_message: # 自定义消息，留空则显示网站标题
+  # 是否启用开放图谱
   open_graph:
     enable: true
-    image: /images/og.webp  # default og:image
+    image: /images/og.webp  # 默认og:image
     description: 这是你的小窝
   # Google Analytics
   google_analytics:
-    enable: false # Whether to enable Google Analytics
-    id:  # Google Analytics Measurement ID
-# SITE CUSTOMIZATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+    enable: false # 是否启用Google Analytics
+    id:  # Google Analytics测量ID
+# 网站自定义配置 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
     
 
 # FONTAWESOME >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -118,19 +118,19 @@ home_banner:
     dark: https://s3.starssr.com/20200806064430_a2kfN.jpeg # dark mode
   # Home banner title
   title: 星夜幻梦
-  # Home banner subtitle
+  # 首页横幅副标题
   subtitle: 
-    text: ['欢迎来到我的小窝'] # subtitle text, array
-    hitokoto:  # Hitokoto Configuration
-      enable: false # Whether to enable hitokoto
-      show_author: true # Whether to show author
-      api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
-    typing_speed: 100 # Typing speed (ms)
-    backing_speed: 80 # Backing speed (ms)
-    starting_delay: 500 # Start delay (ms)
-    backing_delay: 1500 # Backing delay (ms)
-    loop: true # Whether to loop
-    smart_backspace: true # Whether to smart backspace
+    text: [] # 副标题文本数组，留空则不显示副标题
+    hitokoto:  # 一言配置
+      enable: false # 是否启用一言
+      show_author: true # 是否显示作者
+      api: https://v1.hitokoto.cn # API地址
+    typing_speed: 100 # 打字速度 (毫秒)
+    backing_speed: 80 # 退格速度 (毫秒)
+    starting_delay: 500 # 开始延迟 (毫秒)
+    backing_delay: 1500 # 退格延迟 (毫秒)
+    loop: true # 是否循环
+    smart_backspace: true # 是否智能退格
   # Color of home banner text
   text_color: 
     light: "#fff" # light mode
@@ -172,60 +172,44 @@ home_banner:
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
-# NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
-# Docs: https://redefine-docs.ohevan.com/home/navbar
+# 导航栏配置 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+# 文档: https://redefine-docs.ohevan.com/home/navbar
 navbar:
-  # Auto hide navbar
+  # 自动隐藏导航栏
   auto_hide: true
-  # Navbar background color
+  # 导航栏背景颜色
   color:
-    left: "#f78736" #left side 
-    right: "#367df7"  #right side
-    transparency: 50 #percent (10-99)
-  # Navbar width (usually no need to modify)
+    left: "#f78736" # 左侧颜色
+    right: "#367df7"  # 右侧颜色
+    transparency: 50 # 透明度百分比 (10-99)
+  # 导航栏宽度（通常无需修改）
   width:
-    home: 1200px #home page
-    pages: 1000px #other pages
-  # Navbar links
+    home: 1200px # 首页宽度
+    pages: 1000px # 其他页面宽度
+  # 导航栏链接
   links:
     首页: 
       path: / 
-      icon: fa-regular fa-house # can be empty
+      icon: fa-regular fa-house
     归档: 
       path: /archives 
-      icon: fa-regular fa-archive # can be empty
-    # Github: 
-      # path: https://github.com/starssr
-      # icon: fa-brands fa-github
-      # submenus:
-      #   Link1: /link1
-      #   Link2: /link2
-      #   Link3: /link3
-    图库: #
-      icon: fa-solid fa-image #icon
+      icon: fa-regular fa-archive
+    图库:
+      icon: fa-solid fa-image
       path: /masonry/ 
-    # Categories: 
-    #   icon: fa-solid fa-tags #icon
-    #   path: /tags/ #Link
     友链: 
       path: /links/
       icon: fa-solid fa-link
     关于: 
       path: /about
       icon: fa-solid fa-circle-info
-      # submenus:
-      #   Me: /about
-      #   Github: https://github.com/EvanNotFound/hexo-theme-redefine
-      #   Blog: https://ohevan.com
-      #   Friends: /friends
-    # ...... # you can add more
-  # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
+  # 导航栏搜索功能（本地搜索）需要安装 hexo-generator-searchdb
   search:
-    # Whether to enable
-    enable: false
-    # Preload search data when the page loads
+    # 是否启用搜索
+    enable: true
+    # 页面加载时预加载搜索数据
     preload: true
-# NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
+# 导航栏配置 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
 # HOME PAGE ARTICLE SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -336,9 +320,10 @@ articles:
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
+# 特效配置
 effects: 
-  particles: true
-  cursoreffects: true
+  particles: true # 粒子特效
+  cursoreffects: true # 鼠标特效
 
 
 # COMMENT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
@@ -399,11 +384,11 @@ footer:
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
   customize:
-  # ICP record number. See https://beian.miit.gov.cn/
+  # ICP备案号配置
   icp:
-    enable: false # Whether to enable
-    number: # ICP record number
-    url: # ICP record url
+    enable: true # 是否启用ICP备案号显示
+    number: 陇ICP备2021002121号 # ICP备案号
+    url: https://beian.miit.gov.cn/ # ICP备案查询地址
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -447,7 +432,7 @@ plugins:
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
-    enable: false # enable mermaid or not
+    enable: true # enable mermaid or not
     version: "11.4.1" # default v11.4.1
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
