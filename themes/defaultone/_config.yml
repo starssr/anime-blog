@@ -194,9 +194,9 @@ navbar:
     归档: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
-    Github: 
-      path: https://github.com/starssr
-      icon: fa-brands fa-github
+    # Github: 
+      # path: https://github.com/starssr
+      # icon: fa-brands fa-github
       # submenus:
       #   Link1: /link1
       #   Link2: /link2
