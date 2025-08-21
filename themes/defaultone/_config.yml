@@ -68,15 +68,15 @@ global:
     percentage: true # 百分比
   # 网站计数器
   website_counter:
-    url: https://cn.vercount.one/js # 计数器API地址（无需更改）
+    url: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js # 使用不蒜子统计
     enable: true # 是否启用网站计数器
     site_pv: true # 网站页面浏览量
     site_uv: true # 网站独立访客
     post_pv: true # 文章页面浏览量
     # 初始访问量设置
     initial_count:
-      site_pv: 0 # 初始页面浏览量
-      site_uv: 0  # 初始独立访客数
+      site_pv: 10000 # 初始页面浏览量
+      site_uv: 1000  # 初始独立访客数
   # 是否启用单页面体验（使用swup）类似pjax
   single_page: true
   # 是否启用预加载器
@@ -87,7 +87,7 @@ global:
   open_graph:
     enable: true
     image: /images/og.webp  # 默认og:image
-    description: 这是你的小窝
+    description: 陌让流年盼繁华，颜容依旧私似繁花
   # Google Analytics
   google_analytics:
     enable: false # 是否启用Google Analytics
