@@ -1,5 +1,5 @@
 - links_category: me
-  has_thumbnail: true
+  has_thumbnail: false
   list:
       - name: 云云星羽
         link: https://starssr.com
