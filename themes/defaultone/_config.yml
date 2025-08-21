@@ -73,6 +73,10 @@ global:
     site_pv: true # 网站页面浏览量
     site_uv: true # 网站独立访客
     post_pv: true # 文章页面浏览量
+    # 初始访问量设置
+    initial_count:
+      site_pv: 0 # 初始页面浏览量
+      site_uv: 0  # 初始独立访客数
   # 是否启用单页面体验（使用swup）类似pjax
   single_page: true
   # 是否启用预加载器
