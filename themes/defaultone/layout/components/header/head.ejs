@@ -85,16 +85,22 @@
                                                                                                 config.title
                                                                                                 || 'defaultone Theme' %>
                                                                                                 <% } else { %>
-                                                                                                    <%= theme.info.title
-                                                                                                        || config.title
-                                                                                                        || 'defaultone Theme'
-                                                                                                        %> - <%=
-                                                                                                            theme.info.subtitle
-                                                                                                            ||
-                                                                                                            config.subtitle
-                                                                                                            || 'defaultone Your Hexo Journey.'
-                                                                                                            %>
-                                                                                                            <% } %>
+                                                                                                    <% if (theme.info.subtitle || config.subtitle) { %>
+                                                                                                        <%= theme.info.title
+                                                                                                            || config.title
+                                                                                                            || 'defaultone Theme'
+                                                                                                            %> - <%=
+                                                                                                                theme.info.subtitle
+                                                                                                                ||
+                                                                                                                config.subtitle
+                                                                                                                %>
+                                                                                                                <% } else { %>
+                                                                                                                    <%= theme.info.title
+                                                                                                                        || config.title
+                                                                                                                        || 'defaultone Theme'
+                                                                                                                        %>
+                                                                                                                        <% } %>
+                                                                                                                            <% } %>
                                                                                 </title>
 
                                                                                 <%- renderCSS('fonts/Chillax/chillax.css')
