@@ -33,7 +33,11 @@
             <% } %>
         </div>
         <% if (theme.global.website_counter.enable === true) { %>
-            <script <%= theme.global.single_page === true && 'data-swup-reload-script' %> src="<%= theme.global.website_counter.url ? theme.global.website_counter.url : "https://vercount.one/js" %>"></script>
+            <% if (theme.global.single_page === true) { %>
+            <script data-swup-reload-script src="<%= theme.global.website_counter.url ? theme.global.website_counter.url : 'https://vercount.one/js' %>"></script>
+            <% } else { %>
+            <script src="<%= theme.global.website_counter.url ? theme.global.website_counter.url : 'https://vercount.one/js' %>"></script>
+            <% } %>
             <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
                 <% if (theme.global.website_counter.site_uv) { %>
                     <span id="busuanzi_container_site_uv" class="lg:!block">
@@ -68,7 +72,8 @@
             </div>
         <% } %>
         <% if (theme.footer.runtime === true) {%>
-            <script <%= theme.global.single_page === true && 'data-swup-reload-script' %>>
+            <% if (theme.global.single_page === true) { %>
+            <script data-swup-reload-script>
                 try {
                     function odometer_init() {
                     const elements = document.querySelectorAll('.odometer');
@@ -83,6 +88,23 @@
                     odometer_init();
                 } catch (error) {}
             </script>
+            <% } else { %>
+            <script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+            <% } %>
         <% } %>
         <% if (theme.inject.enable === true) { %>
             <% for (let i in theme.inject.footer) { %>
