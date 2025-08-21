@@ -2,7 +2,7 @@ info:
   # Site title
   title: 星夜幻梦
   # Site subtitle
-  #subtitle: 降临
+  subtitle: 降临
   # Author name
   author: 云云星羽
   # Site URL
@@ -117,9 +117,9 @@ home_banner:
     light: https://up.starssr.com/img/20210204003355_da41b.jpeg # light mode
     dark: https://s3.starssr.com/20200806064430_a2kfN.jpeg # dark mode
   # Home banner title
-  #title: 星夜幻梦
+  title: 
   # Home banner subtitle
-  #subtitle: 
+  subtitle: 
     text: ['欢迎来到我的小窝'] # subtitle text, array
     hitokoto:  # Hitokoto Configuration
       enable: true # Whether to enable hitokoto
