@@ -154,16 +154,16 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: true
+    enable: false
     # Social links style
-    style: 默认 # default, reverse, center
+    style: center # default, reverse, center
     # Social links
     links:
       github: https://github.com/starssr # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       # twitter:  https://x.com/TencentCloudEO # your twitter URL
-      email:  # your email
+      email: admin@starssr.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -222,7 +222,7 @@ navbar:
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
-    enable: true
+    enable: false
     # Preload search data when the page loads
     preload: true
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
