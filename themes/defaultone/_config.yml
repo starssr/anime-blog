@@ -114,8 +114,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image 背景图
   image: 
-    light: https://s3.starssr.com/20200806064430_a2kfN.jpeg # light mode
-    dark: https://up.starssr.com/img/20210204003355_da41b.jpeg # dark mode
+    light: https://up.starssr.com/img/20210204003355_da41b.jpeg # light mode
+    dark: https://s3.starssr.com/20200806064430_a2kfN.jpeg # dark mode
   # Home banner title
   title: 星夜幻梦
   # Home banner subtitle
@@ -323,7 +323,7 @@ articles:
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
-    enable: true
+    enable: false
     # Article recommendation title
     title: 推荐
     # Max number of articles to display
@@ -438,7 +438,7 @@ plugins:
         artist: 萝卜吖 # audio artist
         url: https://dj.starssr.com/hlwmda.mp3 # audio url
         cover: https://dj.starssr.com/24.jpg # audio cover url
-        lrc: # audio cover lrc
+        #lrc: https://dj.starssr.com/hlwmda.lrc # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
