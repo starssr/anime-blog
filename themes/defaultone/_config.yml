@@ -119,7 +119,7 @@ home_banner:
   # Home banner title
   #title: 星夜幻梦
   # Home banner subtitle
-  subtitle: 
+  #subtitle: 
     text: ['欢迎来到我的小窝'] # subtitle text, array
     hitokoto:  # Hitokoto Configuration
       enable: true # Whether to enable hitokoto
