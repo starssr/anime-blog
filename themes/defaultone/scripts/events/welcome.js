@@ -50,7 +50,7 @@ function logInfo(data) {
       |     |_| |_| |_|_____|_|  |_|_____| |_| \\_\\_____|____/|_____|_|   |___|_| \\_|_____|   |
       |                                                                                      |
       |                            current v${version}  latest v${data.npmVersion}                             |
-      |                  https://github.com/EvanNotFound/hexo-theme-redefine                 |
+      |                  https://github.com/starssr            |
       +======================================================================================+
                       `,
   );
@@ -68,7 +68,7 @@ function logFailedInfo() {
       |     |_| |_| |_|_____|_|  |_|_____| |_| \\_\\_____|____/|_____|_|   |___|_| \\_|_____|   |
       |                                                                                      |
       |                        current v${version}  fetch latest failed                           |
-      |                  https://github.com/EvanNotFound/hexo-theme-redefine                 |
+      |                  https://github.com/starssr   |
       +======================================================================================+
        `,
   );
