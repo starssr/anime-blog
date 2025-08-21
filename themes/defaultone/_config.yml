@@ -438,7 +438,7 @@ plugins:
         artist: 萝卜吖 # audio artist
         url: https://dj.starssr.com/hlwmda.mp3 # audio url
         cover: https://dj.starssr.com/24.jpg # audio cover url
-        lrc: https://dj.starssr.com/hlwmda.lrc # audio cover lrc
+        lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
