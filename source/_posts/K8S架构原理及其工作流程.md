@@ -1,4 +1,15 @@
-K8S架构原理及其工作流程
+---
+title: K8S架构原理及其工作流程
+banner: "K8S架构原理及其工作流程"
+cover: https://live-production.wcms.abc-cdn.net.au/1b1cac1b28debc63abe7c3c34aa11797?impolicy=wcms_crop_resize&cropH=830&cropW=1476&xPos=30&yPos=0&width=862&height=485
+date: 2021-08-24 14:00:00
+
+tags:
+- 搬砖
+categories:
+- 搬砖
+---
+
 
 ### 前言
 
