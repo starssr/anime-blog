@@ -114,8 +114,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image 背景图
   image: 
-    light: https://s3.starssr.com/wybj.webm # light mode
-    dark: https://s3.starssr.com/wybj.webm # dark mode
+    light: https://s3.starssr.com/25.png?fmt=webp # light mode
+    dark: https://up.starssr.com/img/yejian.jpeg # dark mode
   # Home banner title
   title: 星夜幻梦
   # Home banner subtitle
